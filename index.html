@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<script src="script.js"></script>
+</head>
+<body>
+    <div class="first">
+        <div class="left">
+            <p>Aman's Portfolio</p>
+        </div>
+        <div class="right">
+            <nav>
+                <ul id="bar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul>
+                <div>
+                    <button id="buttonr" type="button" onclick="location.href='https://drive.google.com/file/d/1j_3qA0qJqKglWpQx0He_32NszBDSHhXO/view'">Resume</button>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="second">
+        <div class="intro">
+            <p>Hello,<br>I am <span class="name">Aman Singh</span></p>
+            <span id="element"></span>
+        </div>
+        <div class="image">
+            <img src="oneimg.png" alt="I am an image">
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['<i>Developer</i>, Coder', '&amp;  A Video Editor.'],
+        typeSpeed: 50,
+      });
+    </script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <div id="fhead">
+        <div class="heading">
+            <h2>EDUCATION</h2>
+            <h2>SKILLS
+                <img src="soft-skills.png" alt="">
+            </h2>
+        </div>
+        <div class="third">
+          <div id="edu">
+            <div class="box1">
+                <img src="school-removebg-preview.png" alt="school image">
+                <nav>
+                    <ul id="school">
+                        <li><a href="#">CLASS Xth(2019)</a> CGPA -8.4</li>
+                        <li><a href="#">CLASS XIIth(2021)</a> CGPA-8.3</li>
+                    </ul>
+                </nav>
+            </div>
+    
+            <div class="box2">
+                <img src="college-removebg-preview.png" alt="college image">
+                <nav>
+                    <ul id="college">
+                        <li><a href="#">B.TECH</a> CSE-AIML</li>
+                        <li><a href="#">BATCH</a> (2022-2026)</li>
+                    </ul>
+                </nav>
+            </div>
+          </div>
+            <div class="box3">
+                <nav>
+                    <ul id="skills">
+                        <li><a href="#">DSA With JAVA <img src="java.png" height="50px" alt=""></a></li>
+                        <li><a href="#">Web Development <img src="web-development.png" height="40px"  alt=""></a></li>
+                        <li><a href="#">My SQL <img src="pngwing.com.png" height="40px" alt=""></a></li>
+                        <li><a href="#">Graphic Design,Video Editing <img src="edit.png" height="40px" alt=""></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="contact">
+            <p>Message Me</p>
+            <form action="mailto:aman9036singh@gmail.com" method="get">
+                <div>
+                    <input type="text" id="subj" placeholder="Subject" name="Subject" required >
+                </div>
+                <div >
+                    <textarea id="mess" placeholder="Message" "body" required></textarea>
+                </div>
+                <div>
+                    <button class="sub" type="submit">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>Let's connect 
+            <img src="connect.png" height="60px" alt="">
+        </p>
+        <div class="connect">
+            <nav class="soc">
+                <ul id="social">
+                    <li id="insta"><a href="https://www.instagram.com/_a_mansingh?igsh=OGZ4cjV5bHU5MmE1"><img src="pngegg.png" height="25px" alt="insta image"></a></li>
+                    <li id="linkedin"><a href="www.linkedin.com/in/aman-
+                        singh-baghel-697130224"><img src="linkedin.png" height="45px" alt=""></a></li>
+                    <li id="Twitter X"><a href="https://x.com/Aman22baghel?t=8naHbJKxLcIXcavvpa9Wxg&s=09"><img src="Twitter-X-Logo-PNG.png" height="20px" alt=""></a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <div class="copyright">
+        <p> Copyright&#169 All Right Reserved</p>
+    </div>
+</body>
+</html>

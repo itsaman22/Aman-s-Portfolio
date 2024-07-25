@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    background-color: rgb(41, 6, 73);
+    position:relative;
+}
+.first{
+    box-shadow: 4px 3px 3px 4px;
+    display: flex;
+    height: 90px;
+    width: 100%;
+    background-color:rgb(73, 34, 110);
+    justify-content:space-around;
+    align-items: center;
+}
+.left{
+    font-size: 1.6rem;
+    color: white;
+}
+nav{
+    display: flex;
+}
+#bar{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#bar li{
+    cursor: pointer;
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+}
+#bar a:hover{
+    font-size:1.2rem;
+    color: rgb(157, 157, 229);
+}
+#buttonr{
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    border: 2px solid black;
+    background-color:rgb(41, 6, 73);
+    color:white;
+    height:33px;
+    width: 80px;
+}
+#buttonr:hover{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.second{
+    justify-content: space-around;
+    display: flex;
+}
+.intro{
+    font-size: 3.3rem;
+    color: white;
+    margin: 48px 0;
+    height: 300px;
+    width: 500px;
+}
+.name{
+    font-weight: 600;
+    color:rgb(229, 155, 229);
+}
+.image img{
+    margin: 30px 0;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+}
+.heading{
+    text-decoration: underline;
+    display: flex;
+    color: white;
+    font-size: 1.5rem;
+    margin: 30px;
+    text-align: center;
+    justify-content:space-around;
+    align-items: center;
+    width: 90%;
+}
+.heading img{
+    height: 90px;
+    width: 90px;
+}
+.third{
+    margin: 0 23px;
+    justify-content: space-around;
+    height: 300px;
+    display: flex;
+}
+#edu{
+    box-shadow: 3px 3px 3px 3px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    margin: 0 23px;
+    height: 160px;
+    width: 280px;
+}
+.box1 img{
+    margin: 5px 10px;
+    width: 280px;
+    height: 100px;
+}
+#school{
+    list-style: none;
+    font-weight: 600;
+    font-size: .8rem;
+    color:grey;
+}
+.box2{
+    margin: 0 23px;
+    height: 160px;
+    width: 280px;
+}
+.box2 img{
+    margin: 5px 10px ;
+    height: 100px;
+    width: 280px;
+}
+#college{
+    list-style: none;
+    font-weight: 600;
+    font-size: .8rem;
+    color:gray;
+}
+.box3{
+    position: relative;
+    font-weight: 600;
+    font-size: 2rem;
+    height: 150px;
+    width: 280px;
+}
+#skills{
+    width: 800px;
+    height: 300px;
+    list-style: none;
+    box-shadow: 3px 3px 3px 3px;
+    font-size:  2rem;
+}
+#skills li a{
+    font-size:1.5rem;
+    color: rgb(209, 186, 231);
+}
+.connect{
+    justify-content: space-around;
+}
+.soc ul li{ 
+    margin: 0 20px;
+}
+.soc ul li:hover{ 
+    font-size:xx-large;
+}
+#social{
+    margin: 0 23px;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+.contact{
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contact p{
+    font-weight: 600;
+    margin: 10px;
+    font-size: 1.5rem;
+    color: white;
+}
+#subj{
+    border-radius: 4px;
+    height: 35px;
+    width: 200px;
+}
+#mess{
+    border-color: antiquewhite;
+    border-radius: 4px;
+    height: 35px;
+    width: 240px;
+}
+.sub{
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    border: 2px solid black;
+    background-color:rgb(90, 46, 132);
+    color:white;
+    height:38px;
+    width: 100px;
+}
+footer{
+    margin: 20px;
+    box-shadow: 3px 3px 3px 3px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    height: 120px;
+    background-color:rgb(73, 34, 110);
+}
+footer p{
+    font-weight: bolder;
+    font-size: 2rem;
+    color: white;
+}
+.copyright{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.copyright p{
+    color: white;
+}
+
